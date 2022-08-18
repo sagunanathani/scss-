@@ -1,0 +1,18 @@
+@import "variables";
+@import "paragraph";
+
+//create variable for all of color same
+$main-color : lightblue;
+
+body{
+  background-color: $main-color;
+  font-family: Calibri;
+}
+h1{
+  color: black;
+  font-size: medium;
+}
+span{
+  color: $main-color;
+}
+
